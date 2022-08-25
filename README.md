@@ -1,6 +1,6 @@
 # Personal Web Applicaton Muhammad Rizky Ilham Pratama
 
-Hallo. Saya Muhammad Rizky Ilham Pratama, disini saya sekadar mau berbagi, bagaimana saya membangun dan mengembangkan website pribadi ini. Kalian bisa melihat progress bagaimana web application ini dibuat, seperti apa saja yang saya commit, issue apa saja yang timbul, dan sampai mana web application ini dikembangkan. Sebelumnya saya disini masih belajar, jadi mohon maaf apabila ada kekurangan maupun kesalahan. Feel free untuk menghubungi kontak saya jika ada kritik, saran, maupun pertanyaan.
+Hallo. Saya Muhammad Rizky Ilham Pratama, disini saya sekadar mau membagikan, bagaimana saya membangun dan mengembangkan website pribadi ini. Kalian bisa melihat progress bagaimana web application ini dibuat, seperti apa saja yang saya commit, issue apa saja yang timbul, dan sampai mana web application ini dikembangkan. Sebelumnya saya disini masih belajar, jadi mohon maaf apabila ada kekurangan maupun kesalahan. Feel free untuk menghubungi kontak saya jika ada kritik, saran, maupun pertanyaan.
 
 Pada version 1.0 ini web app masih static dengan beberapa fitur di bawah:
 1. One page HTML
