@@ -10,7 +10,8 @@ Pada version 1.0 ini web app masih static dengan beberapa fitur di bawah:
 5. Insyallah responsive
 6. Easter egg
 
-Apa tujuan atau hasil akhir dari web app ini? 
+Apa tujuan atau hasil akhir dari web app ini?
+
 Untuk tujuan utama:
 1. Web app dinamis dengan database
 2. Sebagai blogging atau saya bisa menulis dan menyimpan langsung tulisan saya di web, atau hampir sama dengan blogspot.
