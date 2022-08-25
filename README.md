@@ -15,4 +15,4 @@ Untuk tujuan utama:
 1. Web app dinamis dengan database
 2. Sebagai blogging atau saya bisa menulis dan menyimpan langsung tulisan saya di web, atau hampir sama dengan blogspot.
 3. Portfolio
-4. Berbagi project yang pernah saya kerjakan
+4. Membagikan project yang pernah saya kerjakan
