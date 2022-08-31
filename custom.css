@@ -123,6 +123,10 @@ a:active#csa {
     .custom-mt-footer {
         margin-top: 10rem;
     }
+
+    .custom-w-accordion{
+        width: 12%;
+    }
 }
 
 @media (min-width: 601px) {
