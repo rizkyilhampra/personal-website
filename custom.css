@@ -1,6 +1,6 @@
 /* CUSTOM TAG */
 body {
-    background-color: cornsilk;
+    background-color: #fff8dc;
 }
 
 h1.display-1 {
@@ -148,3 +148,7 @@ a:active#csa {
 }
 
 /* END CUSTOM ACCORDION ICON EXPAND */
+
+.bg-navbar{
+    background-color: #3f0d12;
+}
