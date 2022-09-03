@@ -117,13 +117,15 @@ body {
 /* CUSTOM ABOUT-DESC */
 @media (max-width: 991px) {
   .wrap .about-desc .bold-text {
-    display: none;
+    font-size: 6em;
   }
 }
 
 @media (max-width: 600px) {
   .wrap .about-desc .bold-text {
-    display: none;
+    top: -90px;
+    left: 20px;
+    font-size: 3.5em;
   }
 }
 
