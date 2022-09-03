@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initiaal-scale=1.0" />
     <meta name="author" content="Rizky Ilham Pratama" />
     <link rel="icon" href="assets/profile4-modified.png" />
     <title>Rizky Ilham | Personal Web</title>
@@ -17,235 +17,245 @@
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-sm navbar-light pl-0 custom-mb-navbar" id="navbar custom-mb-navbar">
-            <a class="navbar-brand mb-0 h1" href="#landing">
-                <img class="d-inline-block align-top rounded-circle" src="assets/profile4.jpg" width="30" height="30" />
-                Aquila
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-expand-sm sticky-top bg-white shadow p-3" id="navbar">
+        <div class="container">
+            <a class="navbar-brand me-auto" href="#landing">
+                <!-- <img class="d-inline-block align-text-top rounded-circle" src="assets/profile4.jpg" width="30"
+                    height="30" /> -->
+                Personal Web | Portfolio
             </a>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- START AUTO SCROLL DOWN -->
-        <!-- START SECTION LANDING -->
-        <section class="landing" id="landing">
-            <div class="row vertical-center custom-vc">
-                <div class="col-lg-8 pb-5 custom-lg8" id="custom-align-landing">
-                    <h1 class="display-1 custom-font custom-pb">
-                        Muhammad Rizky Ilham Pratama
-                    </h1>
-                    <p class="lead pl-0 custom-font2">
-                        Who boy isn't understanding of looping algorithm, Object Oriented
-                        Program, and why are you left.
-                    </p>
-                </div>
-                <div class="col-lg-4 text-center my-auto pb-5 rounded-circle pb-landing2">
-                    <img class="img-fluid rounded-circle custom-height" src="assets/profile4.jpg" />
-                </div>
-            </div>
-        </section>
-        <!-- END SECTION LANDING -->
-        <!-- START SECTION ABOUT -->
-        <section class="mt-5 mb-5" id="about">
-            <h4 class="display-4 custom-font3">A little about me,</h4>
-            <div class="row">
-                <div class="col-lg-6 wrap text-left">
-                    <div class="about-desc">
-                        <h1 class="bold-text">About</h1>
-                        <div class="pt-5">
-                            <h3 class="mb-4">Hello!</h3>
-                            <p class="cm p">
-                                <i>i'm</i> Muhammad Rizky Ilham Pratama.
-                                <i>Also known as</i> Rizky <i>or</i> Ilham.
-                                <i>i'm born on 2002</i>. Domisili di Banjarmasin, Kalimantan
-                                Selatan. Mahasiswa Teknik Informatika di Politeknik Negeri
-                                Banjarmasin. <i>i'm freethinker</i>
-                                dengan kepercayaan terhadap Sang Maha Esa dan seorang dengan
-                                idealisme.
-                                <br />
-                            </p>
-                            <ul class="social-links list-unstyled mt-4">
-                                <li>
-                                    <a href="mailto:rizkyilhamp16@gmail.com" target="_blank">
-                                        <ion-icon name="mail-outline"></ion-icon>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://instagram.com/rizkyilhampra" target="_blank">
-                                        <ion-icon name="logo-instagram"></ion-icon>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://spotify.openinapp.co/wne7b66h4lk6wd4dp6x9pda6w" target="_blank">
-                                        <i class="fa-brands fa-spotify"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/rizkyilhampra" target="_blank">
-                                        <i class="fa-brands fa-github"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <div class="ms-auto">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#landing">
+                            Home
+                        </a>
+                        <a class="nav-link" href="#about">
+                            About
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-6 wrap align-content-center">
-                    <div class="row mt-5 flex-column">
-                        <div class="col-md-8">
-                            <h3 class="mb-4">Hobby/Interest</h3>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+    <!-- START AUTO SCROLL DOWN -->
+    <div class="container">
+        <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%"
+            data-bs-smooth-scroll="true" tabindex="0">
+            <!-- START SECTION LANDING -->
+            <section class="landing" id="landing">
+                <div class="row vertical-center custom-vc">
+                    <div class="col-lg-8 pb-5 custom-lg8" id="custom-align-landing">
+                        <h1 class="display-1 custom-font custom-pb">
+                            Muhammad Rizky Ilham Pratama
+                        </h1>
+                        <p class="lead pl-0 custom-font2">
+                            Who boy isn't understanding of looping algorithm, Object Oriented
+                            Program, and why are you left.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 text-center my-auto pb-5 rounded-circle pb-landing2">
+                        <img class="img-fluid rounded-circle custom-height" src="assets/profile4.jpg" />
+                    </div>
+                </div>
+            </section>
+            <!-- END SECTION LANDING -->
+            <!-- START SECTION ABOUT -->
+            <section class="mt-5 mb-5" id="about">
+                <h4 class="display-4 custom-font3">A little about me,</h4>
+                <div class="row">
+                    <div class="col-lg-6 wrap text-left">
+                        <div class="about-desc">
+                            <h1 class="bold-text">About</h1>
+                            <div class="pt-5">
+                                <h3 class="mb-4">Hello!</h3>
+                                <p class="cm p">
+                                    <i>i'm</i> Muhammad Rizky Ilham Pratama.
+                                    <i>Also known as</i> Rizky <i>or</i> Ilham.
+                                    <i>i'm born on 2002</i>. Domisili di Banjarmasin, Kalimantan
+                                    Selatan. Mahasiswa Teknik Informatika di Politeknik Negeri
+                                    Banjarmasin. <i>i'm freethinker</i>
+                                    dengan kepercayaan terhadap Sang Maha Esa dan seorang dengan
+                                    idealisme.
+                                    <br />
+                                </p>
+                                <ul class="social-links list-unstyled mt-4">
+                                    <li>
+                                        <a href="mailto:rizkyilhamp16@gmail.com">
+                                            <ion-icon name="mail-outline"></ion-icon>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/rizkyilhampra">
+                                            <ion-icon name="logo-instagram"></ion-icon>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://spotify.openinapp.co/wne7b66h4lk6wd4dp6x9pda6w">
+                                            <i class="fa-brands fa-spotify"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/rizkyilhampra">
+                                            <i class="fa-brands fa-github"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="col-md-auto mt-3 pl-4">
-                            <div class="accordion" id="accordionExample">
-                                <!-- Photography -->
-                                <div class="accordion-item">
-                                    <div class="accordion-header" id="headingOne">
-                                        <button class="accordion-button custom collapsed" disabled>
-                                            <div class="col-1 custom-w-accordion">
-                                                <i class="fa-solid fa-camera fa-lg"></i>
-                                            </div>
-                                            <div class="col-auto">Photography</div>
-                                        </button>
-                                    </div>
-                                </div>
-                                <!-- Music -->
-                                <div class="accordion-item">
-                                    <div class="accordion-header" id="heading2">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                            aria-expanded="false" aria-controls="collapseTwo">
-                                            <div class="col-1 custom-w-accordion">
-                                                <i class="fa-solid fa-music fa-lg"></i>
-                                            </div>
-                                            <div class="col-auto">Music</div>
-                                        </button>
-                                    </div>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="heading2"
-                                        data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <div class="text-center">
-                                                        <strong class>My Top 3 Singles/Album</strong>
-                                                    </div>
+                    </div>
+                    <div class="col-lg-6 wrap align-content-center">
+                        <div class="row mt-5 flex-column">
+                            <div class="col-md-8">
+                                <h3 class="mb-4">Hobby/Interest</h3>
+                            </div>
+                            <div class="col-md-auto mt-3 pl-4">
+                                <div class="accordion" id="accordionExample">
+                                    <!-- Photography -->
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="headingOne">
+                                            <button class="accordion-button custom collapsed" disabled>
+                                                <div class="col-1 custom-w-accordion">
+                                                    <i class="fa-solid fa-camera fa-lg"></i>
                                                 </div>
-                                                <div class="card-body">
-                                                    <div class="d-flex justify-content-around">
-                                                        <div class="row">
-                                                            <div class="col">
-                                                                <a href="https://spotify.openinapp.co/0esrly43n0q0mc8icvsmwd">
-                                                                    <img class="img-fluid"
-                                                                        src="https://i.scdn.co/image/ab67616d00001e0235583f6f8eca5b400b2832fd" />
-                                                                </a>
-                                                            </div>
-                                                            <div class="col">
-                                                                <a href="https://spotify.openinapp.co/1omdsfjbvwixovwtjjn8es">
-                                                                    <img class="img-fluid"
-                                                                        src="https://i.scdn.co/image/ab67616d00001e02535c27237c9db8080c086c65" />
-                                                                </a>
-                                                            </div>
-                                                            <div class="col">
-                                                                <a href="https://spotify.openinapp.co/4uq5kfmxqdcxz3wvm4uuzy">
-                                                                    <img class="img-fluid"
-                                                                        src="https://i.scdn.co/image/ab67616d00001e02b0d93d82c831a2655e32762e" />
-                                                                </a>
-                                                            </div>
+                                                <div class="col-auto">Photography</div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <!-- Music -->
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="heading2">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                <div class="col-1 custom-w-accordion">
+                                                    <i class="fa-solid fa-music fa-lg"></i>
+                                                </div>
+                                                <div class="col-auto">Music</div>
+                                            </button>
+                                        </div>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="heading2" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="pb-3 text-center">
+                                                    <strong class>My Top 3 Singles/Album</strong>
+                                                </div>
+                                                <div class="d-flex justify-content-around">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <a
+                                                                href="https://spotify.openinapp.co/0esrly43n0q0mc8icvsmwd">
+                                                                <img class="img-fluid"
+                                                                    src="https://i.scdn.co/image/ab67616d00001e0235583f6f8eca5b400b2832fd" />
+                                                            </a>
+                                                        </div>
+                                                        <div class="col">
+                                                            <a
+                                                                href="https://spotify.openinapp.co/1omdsfjbvwixovwtjjn8es">
+                                                                <img class="img-fluid"
+                                                                    src="https://i.scdn.co/image/ab67616d00001e02535c27237c9db8080c086c65" />
+                                                            </a>
+                                                        </div>
+                                                        <div class="col">
+                                                            <a
+                                                                href="https://spotify.openinapp.co/4uq5kfmxqdcxz3wvm4uuzy">
+                                                                <img class="img-fluid"
+                                                                    src="https://i.scdn.co/image/ab67616d00001e02b0d93d82c831a2655e32762e" />
+                                                            </a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- Gaming -->
-                                <div class="accordion-item">
-                                    <div class="accordion-header" id="heading3">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false"
-                                            aria-controls="collapse3">
-                                            <div class="col-1 custom-w-accordion">
-                                                <i class="fa-solid fa-gamepad fa-lg"></i>
-                                            </div>
-                                            <div class="col">Gaming</div>
-                                        </button>
-                                    </div>
-                                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
-                                        data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <div class="text-center">
-                                                        <strong class>My Top 2 Games </strong>
-                                                    </div>
+                                    <!-- Gaming -->
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="heading3">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse3"
+                                                aria-expanded="false" aria-controls="collapse3">
+                                                <div class="col-1 custom-w-accordion">
+                                                    <i class="fa-solid fa-gamepad fa-lg"></i>
                                                 </div>
-                                                <div class="card-body">
-                                                    <div class="d-flex justify-content-around">
-                                                        <div class="row">
-                                                            <div class="col">
-                                                                <img class="img-fluid"
-                                                                    src="assets/Genshin_Impact_logo.png" />
-                                                            </div>
-                                                            <div class="col">
-                                                                <img class="img-fluid"
-                                                                    src="assets/MLBB-New-Logo.png" />
-                                                            </div>
+                                                <div class="col">Gaming</div>
+                                            </button>
+                                        </div>
+                                        <div id="collapse3" class="accordion-collapse collapse"
+                                            aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="pb-3 text-center">
+                                                    <strong class>My Top 2 Games </strong>
+                                                </div>
+                                                <div class="d-flex justify-content-around">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <img class="img-fluid"
+                                                                src="assets/Genshin_Impact_logo.png" />
+                                                        </div>
+                                                        <div class="col">
+                                                            <img class="img-fluid" src="assets/MLBB-New-Logo.png" />
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- Hiking -->
-                                <div class="accordion-item">
-                                    <div class="accordion-header" id="heading4">
-                                        <button class="accordion-button custom collapsed" type="button" disabled>
-                                            <div class="col-1 custom-w-accordion">
-                                                <i class="fa-solid fa-mountain fa-lg"></i>
-                                            </div>
-                                            <div class="col">Hiking</div>
-                                        </button>
+                                    <!-- Hiking -->
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="heading4">
+                                            <button class="accordion-button custom collapsed" type="button" disabled>
+                                                <div class="col-1 custom-w-accordion">
+                                                    <i class="fa-solid fa-mountain fa-lg"></i>
+                                                </div>
+                                                <div class="col">Hiking</div>
+                                            </button>
+                                        </div>
                                     </div>
-                                </div>
-                                <!-- Coffe -->
-                                <div class="accordion-item">
-                                    <div class="accordion-header" id="heading5">
-                                        <button class="accordion-button custom collapsed" type="button" disabled>
-                                            <div class="col-1 custom-w-accordion">
-                                                <i class="fa-solid fa-mug-saucer fa-lg"></i>
-                                            </div>
-                                            <div class="col">Coffe</div>
-                                        </button>
+                                    <!-- Coffe -->
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="heading5">
+                                            <button class="accordion-button custom collapsed" type="button" disabled>
+                                                <div class="col-1 custom-w-accordion">
+                                                    <i class="fa-solid fa-mug-saucer fa-lg"></i>
+                                                </div>
+                                                <div class="col">Coffe</div>
+                                            </button>
+                                        </div>
                                     </div>
-                                </div>
-                                <!-- Programming -->
-                                <div class="accordion-item">
-                                    <div class="accordion-header" id="heading6">
-                                        <button class="accordion-button custom collapsed" type="button" disabled>
-                                            <div class="col-1 custom-w-accordion">
-                                                <i class="fa-solid fa-microchip fa-lg"></i>
-                                            </div>
-                                            <div class="col">Programming</div>
-                                        </button>
+                                    <!-- Programming -->
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="heading6">
+                                            <button class="accordion-button custom collapsed" type="button" disabled>
+                                                <div class="col-1 custom-w-accordion">
+                                                    <i class="fa-solid fa-microchip fa-lg"></i>
+                                                </div>
+                                                <div class="col">Programming</div>
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- START FOOTER -->
-        <section class="custom-mt-footer mb-3">
-            <div class="custom-text-footer">
-                <a href="page1.html" id="csa">
-                    Version 1.0 © 2022 Rizky Ilham Pratama
-                </a>
-            </div>
-        </section>
-        <!-- END FOOTER -->
+            </section>
+            <!-- START FOOTER -->
+            <section class="custom-mt-footer mb-3">
+                <div class="custom-text-footer">
+                    <a href="page1.html" id="csa">
+                        Version 1.0 © 2022 Rizky Ilham Pratama
+                    </a>
+                </div>
+            </section>
+            <!-- END FOOTER -->
+        </div>
     </div>
     <!-- END AUTO SCROLL DOWN -->
 
@@ -259,9 +269,6 @@
         integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-    <!-- </body>
-
-</html> -->
 </body>
 
 </html>
