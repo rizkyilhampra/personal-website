@@ -20,10 +20,6 @@ h6 {
   }
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   color: #777777;
   font-family: "Roboto", sans-serif;
