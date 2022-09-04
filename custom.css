@@ -76,18 +76,28 @@ a:active#csa {
     padding-right: 0.7rem;
 }
 
+.custom-font{
+    font-size: 6rem;
+}
+
 /* START CUSTOM RESPONSIVE */
 @media (max-width: 991px) {
     .pb-landing2 {
         margin-top: 0 !important;
     }
 
-    .custom-font {
-        font-size: 7rem;
-    }
-
     .custom-font2 {
         font-size: 1.5rem;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 768px){
+    .custom-font{
+        font-size: 5rem;
+    }
+    .custom-font2{
+        font-size: 1.2rem;
         text-align: justify;
     }
 }
@@ -129,14 +139,26 @@ a:active#csa {
     }
 }
 
-@media (min-width: 601px) {
+@media (max-width: 575px){
+    .custom-font2{
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
+
+
+@media (min-width: 1200px) {
     .custom-mb-navbar {
         margin-bottom: 0.25rem;
         ;
     }
 
     .custom-font2 {
-        padding-right: 4.5rem;
+        padding-right: 5rem;
+    }
+
+    .custom-font{
+        font-size: 6rem;
     }
 }
 
