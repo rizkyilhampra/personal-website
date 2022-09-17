@@ -76,7 +76,7 @@ a:active#csa {
     padding-right: 0.7rem;
 }
 
-.custom-font{
+.custom-font {
     font-size: 6rem;
 }
 
@@ -92,11 +92,12 @@ a:active#csa {
     }
 }
 
-@media (max-width: 768px){
-    .custom-font{
+@media (max-width: 768px) {
+    .custom-font {
         font-size: 5rem;
     }
-    .custom-font2{
+
+    .custom-font2 {
         font-size: 1.2rem;
         text-align: justify;
     }
@@ -139,8 +140,8 @@ a:active#csa {
     }
 }
 
-@media (max-width: 575px){
-    .custom-font2{
+@media (max-width: 575px) {
+    .custom-font2 {
         padding-right: 2rem;
         padding-left: 2rem;
     }
@@ -157,7 +158,7 @@ a:active#csa {
         padding-right: 5rem;
     }
 
-    .custom-font{
+    .custom-font {
         font-size: 6rem;
     }
 }
@@ -174,3 +175,19 @@ a:active#csa {
 .bg-navbar {
     background-color: #3f0d12;
 }
+
+/* START CUSTOM HOVER EFFECT CARD TECH STACK */
+
+.custom-hover1:hover {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    transition: 100ms linear !important;
+    transition-delay: 10ms !important;
+}
+
+.custom-hover1:hover img {
+    scale: 1.3;
+    transition-delay: 10ms !important;
+}
+
+
+/* END CUSTOM HOVER EFFECT CARD TECH STACK */
