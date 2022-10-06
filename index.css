@@ -60,8 +60,7 @@ body {
   width: 50px;
   display: block;
   float: left;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 50%;
+  border-radius: 20%;
   position: relative;
 }
 
@@ -73,11 +72,12 @@ body {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  transition: all 0.3s;
+  /* transition: all 0.3s; */
 }
 
 .social-links li a:hover {
-  color: #111;
+  color: inherit;
+  background: hsla(120, 2%, 89%, 1);
   transition: all 0.3s;
 }
 
