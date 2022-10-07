@@ -1,5 +1,9 @@
-index.js
 aos-resp.js
 test.js
 rebuild.html
 /.vscode
+other.js
+node_modules
+package.json
+package-lock.json
+index-private.html
