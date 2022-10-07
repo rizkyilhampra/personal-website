@@ -7,3 +7,7 @@ node_modules
 package.json
 package-lock.json
 index-private.html
+custom.min.css
+index.min.css
+index.min.js
+page1.html
